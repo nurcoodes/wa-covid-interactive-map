@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2, h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    margin: 10px;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.map-overlay {
+    position: absolute;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    margin-left: 16px;
+    border-radius: 6px;
+    overflow: auto;
+    z-index: 5;
+    color: #1e2a33;
+}
+
+#features {
+    position: absolute;
+    top: 0;
+    width: 285px;
+    min-height: 116px;
+    margin-top: 16px;
+}
+
+#legend {
+    position: absolute;
+    right: 0;
+    left: auto;
+    width: 220px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+    bottom: 0;
+    padding: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    font-size: 0.85rem;
+}
+
+.legend-title {
+    margin: 0 0 8px 0;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.legend-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+.legend-swatch {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.legend-dot {
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid #ffffff;
+    opacity: 0.72;
+}
+
+.legend-source {
+    margin: 10px 0 0 0;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    color: #2e3f4d;
+}
+
+#legend a {
+    color: #2b607f;
+}
+
+.maplibregl-popup-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.86rem;
+}
